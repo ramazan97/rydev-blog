@@ -13,6 +13,16 @@ module.exports = {
       lg: "960px",
       xl: "1200px",
     },
+    extend: {
+      fontFamily: {
+        poppins: [`var(--font-poppins)`, "sans-serif"],
+        sora: [`var(--font-sora)`, "sans-serif"],
+        fugaz: ["Fugaz One", "sans-serif"],
+        sofia: ["Sofia", "cursive"],
+        fasthand: ["Fasthand", "cursive"],
+      },
+    },
   },
+
   plugins: [require("@tailwindcss/typography")],
 };
