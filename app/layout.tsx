@@ -1,3 +1,4 @@
+import Nav from "./components/Nav";
 import Navbar from "./components/Navbar";
 import { Providers } from "./components/Providers";
 import "./globals.css";
@@ -22,6 +23,8 @@ export default function RootLayout({
       >
         <Providers>
           <Navbar />
+          <Nav/>
+
           <main className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
             {children}
           </main>
